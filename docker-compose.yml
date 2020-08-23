@@ -1,0 +1,10 @@
+version: "3"
+ 
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile
+    image: fargate-deploy-nginx
+    ports:
+      - "80:80"
