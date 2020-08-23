@@ -10,7 +10,7 @@ aws-fargate-deploy codepipline codebuild
 ## github
 
 * create github accaunt and organization.
-** akinori-yamashita-tk
+  * akinori-yamashita-tk
 * create a repository.
-** https://github.com/akinori-yamashita-tk/aws-fargate-deploy
+  * https://github.com/akinori-yamashita-tk/aws-fargate-deploy
 * push builspec.yml, docker-compose.yml and docker files to aws-fargate-deploy.
